@@ -26,19 +26,19 @@ This study aims to:
 ## Potential Datasets 
 
 1. Communities, Culture, Tourism and Heritage's Agencies, Boards, and Commissions
-   - Source: https://data.novascotia.ca
+   - Source: [https://data.novascotia.ca](https://data.novascotia.ca/Public-Service/Communities-Culture-Tourism-and-Heritage-s-Agencie/hy5a-z4zz/about_data)
    - Contents: Comprehensive list of Agencies, Boards, and Commissions specific to the department of Communities, Culture, Tourism and Heritage.
    - Temporal coverage: n/a
    - Geographic scope: n/a 
 
 2. Nova Scotians Engagement in Tourism Industry
-   - Source: https://data.novascotia.ca
+   - Source: [https://data.novascotia.ca](https://data.novascotia.ca/Business-and-Industry/Nova-Scotians-Engagement-in-Tourism-Industry/2ur5-nrja/about_data)
    - Results from a questionnaire gauging Nova Scotians opinions related to the provincial tourism industry.
    - Temporal coverage: 2016-2024
    - Geographic scope: Nova Scotia, Canada 
 
 3. Tourism Nova Scotia Visitation
-   - Source: https://data.novascotia.ca
+   - Source: [https://data.novascotia.ca](https://data.novascotia.ca/Business-and-Industry/Tourism-Nova-Scotia-Visitation/n783-4gmh/about_data)
    - Number of non-resident overnight visitors to Nova Scotia. The dataset is broken down by visitor origin and mode of entry to the province. Data is reported monthly.
    - Temporal coverage: January 2006 - Sept 2024
    - Geographic scope: Nova Scotia, Canada 
