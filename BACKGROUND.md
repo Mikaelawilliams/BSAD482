@@ -23,7 +23,7 @@ This study aims to:
 2. Determine challenges faced by communities in participating in tourism initiatives and identify potential opportunities for increased involvement. 
 3. Propose strategies to enhance community engagement by leveraging existing structures within the CCTH. 
 
-## Potential Datasets 
+## Datasets 
 
 1. Communities, Culture, Tourism and Heritage's Agencies, Boards, and Commissions
    - Source: [https://data.novascotia.ca](https://data.novascotia.ca/Public-Service/Communities-Culture-Tourism-and-Heritage-s-Agencie/hy5a-z4zz/about_data)
