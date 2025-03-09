@@ -1,31 +1,30 @@
 **Data Cleaning Steps:**
 
-1. Room Nights Sold Over Time in Nova Scotia
+1. **Room Nights Sold Over Time in Nova Scotia**
 - Added cleaning step
 - Removed Occupancy Rate (all values equaled 0, not helpful data)
 - Changed Month/Year data type from String to Date
 - Changed Region data role to Geographic (County)
 - Ran Output
 ![Alt text](Room_Nights_Sold_Over_Time_In_Nova_Scotia.png)
-2. Community_Culture
-- Added cleaning step
-- Removed 'Link' column
-- Ran Output
 
-3. Nova_Scotians_Engagement
+2. **Nova_Scotians_Engagement**
 - Added cleaning step
 - Changed Year data type to Date
 - Changed Group Weighted % data type from Number (whole) to Number (decimal)
 - Changed Table column name to Question
 - Ran Output
+![Alt text](How_Residents_Rate_Seasons.png)
+![Alt text](Likelihood_Of_Nova_Soctians_Travelling_In-Nova_Scotia.png)
 
-4. Tourism Nova Scotia Visitation
+3. **Tourism Nova Scotia Visitation**
 - Clean step
 - Changed Month/Year data type from String to Date
 - Grouped duplicates from visitor origin and country
 - Ran Output
+[Alt text](Domestic_Nova_Scotia_Visitor_Origin.png)
 
-5. Arrival and Expenditures
+4. **Arrival and Expenditures**
 - Clean step
 - Removed null field
 - Changed Data role to country/region
@@ -43,3 +42,4 @@
 - Deleted F4
 - Sorted columns
 - Ran output
+[Alt text](International_Visitor_Expenditures.png)
