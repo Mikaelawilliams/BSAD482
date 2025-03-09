@@ -1,0 +1,403 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1211.0901                               -->
+<workbook original-version='18.1' source-build='2024.3.2 (20243.24.1211.0901)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Tourism Nova Scotia Visitation Extract' inline='true' name='federated.1o9awc70a8gmse0zlnuth1h9yvqx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Tourism Nova Scotia Visitation' name='hyper.1cincoy1r90efl1apqwr71ur0fqe'>
+            <connection authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/mikae/Downloads/Tourism Nova Scotia Visitation.hyper' default-settings='yes' server='' sslmode='' username='tableau_internal_user' />
+          </named-connection>
+        </named-connections>
+        <relation connection='hyper.1cincoy1r90efl1apqwr71ur0fqe' name='Extract' table='[Extract].[Extract]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Mode of entry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Mode of entry]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Mode of entry</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Extract (Extract.Extract)_61B900B311DE414BAA77198320A95EFA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month/Year</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Month/Year]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Month/Year</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <approx-count>238</approx-count>
+            <contains-null>true</contains-null>
+            <object-id>[Extract (Extract.Extract)_61B900B311DE414BAA77198320A95EFA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Visitor Origin</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Visitor Origin]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Visitor Origin</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>23</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Extract (Extract.Extract)_61B900B311DE414BAA77198320A95EFA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Country]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Country</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>23</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Extract (Extract.Extract)_61B900B311DE414BAA77198320A95EFA]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of Visitors (Rounded to nearest hundred)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Number of Visitors (Rounded to nearest hundred)]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Number of Visitors (Rounded to nearest hundred)</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>335</approx-count>
+            <contains-null>true</contains-null>
+            <object-id>[Extract (Extract.Extract)_61B900B311DE414BAA77198320A95EFA]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Visitor Origin]' role='dimension' type='nominal' />
+      <column caption='Extract' datatype='table' name='[__tableau_internal_object_id__].[Extract (Extract.Extract)_61B900B311DE414BAA77198320A95EFA]' role='measure' type='quantitative' />
+      <column-instance column='[Visitor Origin]' derivation='None' name='[none:Visitor Origin:nk]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Visitor Origin:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Mountain&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;West North Central&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Germany&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Other New England&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;New England (inc Maine)&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Maine&quot;</bucket>
+            </map>
+            <map to='#926591'>
+              <bucket>&quot;Western Canada&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;United Kingdom&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Canada&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;West South Central&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Maine (by road only)&quot;</bucket>
+            </map>
+            <map to='#b882a6'>
+              <bucket>&quot;Quebec&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Other Overseas&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Overseas&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;South Atlantic&quot;</bucket>
+            </map>
+            <map to='#d5a4c4'>
+              <bucket>&quot;Ontario&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;United States&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;Atlantic Canada&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Middle Atlantic&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;East North Central&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Pacific&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Other Europe&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;East South Central&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Extract' id='Extract (Extract.Extract)_61B900B311DE414BAA77198320A95EFA'>
+            <properties context=''>
+              <relation connection='hyper.1cincoy1r90efl1apqwr71ur0fqe' name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Domestic Nova Scotia Visitor Origin</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Tourism Nova Scotia Visitation Extract' name='federated.1o9awc70a8gmse0zlnuth1h9yvqx' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1o9awc70a8gmse0zlnuth1h9yvqx'>
+            <column datatype='integer' name='[Number of Visitors (Rounded to nearest hundred)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Visitor Origin]' role='dimension' type='nominal' />
+            <column-instance column='[Visitor Origin]' derivation='None' name='[none:Visitor Origin:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of Visitors (Rounded to nearest hundred)]' derivation='Sum' name='[sum:Number of Visitors (Rounded to nearest hundred):qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.1o9awc70a8gmse0zlnuth1h9yvqx].[none:Visitor Origin:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:Visitor Origin:nk]' member='&quot;Atlantic Canada&quot;' />
+              <groupfilter function='member' level='[none:Visitor Origin:nk]' member='&quot;Ontario&quot;' />
+              <groupfilter function='member' level='[none:Visitor Origin:nk]' member='&quot;Quebec&quot;' />
+              <groupfilter function='member' level='[none:Visitor Origin:nk]' member='&quot;Western Canada&quot;' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.1o9awc70a8gmse0zlnuth1h9yvqx].[none:Visitor Origin:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1o9awc70a8gmse0zlnuth1h9yvqx].[sum:Number of Visitors (Rounded to nearest hundred):qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='line-visibility' value='on' />
+            <format attr='line-pattern-only' value='solid' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1o9awc70a8gmse0zlnuth1h9yvqx].[none:Visitor Origin:nk]' />
+              <wedge-size column='[federated.1o9awc70a8gmse0zlnuth1h9yvqx].[sum:Number of Visitors (Rounded to nearest hundred):qk]' />
+              <size column='[federated.1o9awc70a8gmse0zlnuth1h9yvqx].[sum:Number of Visitors (Rounded to nearest hundred):qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.7691160440444946' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{F7119137-130A-4E15-8CDA-FB45E54C4156}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1o9awc70a8gmse0zlnuth1h9yvqx].[none:Visitor Origin:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.1o9awc70a8gmse0zlnuth1h9yvqx].[sum:Number of Visitors (Rounded to nearest hundred):qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.1o9awc70a8gmse0zlnuth1h9yvqx].[none:Country:nk]</field>
+            <field>[federated.1o9awc70a8gmse0zlnuth1h9yvqx].[none:Mode of entry:nk]</field>
+            <field>[federated.1o9awc70a8gmse0zlnuth1h9yvqx].[none:Visitor Origin:nk]</field>
+            <field>[federated.1o9awc70a8gmse0zlnuth1h9yvqx].[tyr:Month/Year:ok]</field>
+            <field>[federated.1o9awc70a8gmse0zlnuth1h9yvqx].[yr:Month/Year:ok]</field>
+          </color-one-way>
+        </highlight>
+        <floating-toolbar-visibility value='1' />
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{827D4A77-F827-464A-A521-7AACB10055B1}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>

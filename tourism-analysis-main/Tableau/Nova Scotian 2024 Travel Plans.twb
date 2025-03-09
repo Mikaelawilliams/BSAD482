@@ -1,0 +1,483 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20243.24.1211.0901                               -->
+<workbook original-version='18.1' source-build='2024.3.2 (20243.24.1211.0901)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Nova_Scotia_Engagement Extract' inline='true' name='federated.0pp6g781xqf20516iyeup1gng8dg' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Nova_Scotia_Engagement' name='hyper.1thflsq1fad3fv1gvpl4d0gp20a9'>
+            <connection authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/mikae/Downloads/Nova_Scotia_Engagement.hyper' default-settings='yes' server='' sslmode='' username='tableau_internal_user' />
+          </named-connection>
+        </named-connections>
+        <relation connection='hyper.1thflsq1fad3fv1gvpl4d0gp20a9' name='Extract' table='[Extract].[Extract]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>QUESTION</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[QUESTION]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>QUESTION</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>20</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Extract (Extract.Extract)_C1C7A248BBD5498FBEFB88E2F0FEE437]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RESPONSE</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RESPONSE]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>RESPONSE</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>27</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Extract (Extract.Extract)_C1C7A248BBD5498FBEFB88E2F0FEE437]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GROUP</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[GROUP]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>GROUP</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>9</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[Extract (Extract.Extract)_C1C7A248BBD5498FBEFB88E2F0FEE437]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GROUP WEIGHTED %</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[GROUP WEIGHTED %]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>GROUP WEIGHTED %</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>79</approx-count>
+            <contains-null>true</contains-null>
+            <object-id>[Extract (Extract.Extract)_C1C7A248BBD5498FBEFB88E2F0FEE437]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Year</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Year]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Year</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <approx-count>7</approx-count>
+            <contains-null>true</contains-null>
+            <object-id>[Extract (Extract.Extract)_C1C7A248BBD5498FBEFB88E2F0FEE437]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Group Weighted %' datatype='integer' name='[GROUP WEIGHTED %]' role='measure' type='quantitative' />
+      <column caption='Group' datatype='string' name='[GROUP]' role='dimension' type='nominal' />
+      <column caption='Question' datatype='string' name='[QUESTION]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Atlantic Canada&quot;' value='Atlantic Canada' />
+          <alias key='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Caribbean or other sun destinations&quot;' value='Caribbean or other sun destinations' />
+          <alias key='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Elsewhere in Canada&quot;' value='Elsewhere in Canada' />
+          <alias key='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Nova Scotia&quot;' value='Nova Scotia' />
+          <alias key='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Overseas&quot;' value='Overseas' />
+          <alias key='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: United States&quot;' value='United States' />
+        </aliases>
+      </column>
+      <column caption='Response' datatype='string' datatype-customized='true' name='[RESPONSE]' role='dimension' type='nominal' />
+      <column caption='Extract' datatype='table' name='[__tableau_internal_object_id__].[Extract (Extract.Extract)_C1C7A248BBD5498FBEFB88E2F0FEE437]' role='measure' type='quantitative' />
+      <column-instance column='[QUESTION]' derivation='None' name='[none:QUESTION:nk]' pivot='key' type='nominal' />
+      <column-instance column='[RESPONSE]' derivation='None' name='[none:RESPONSE:ok]' pivot='key' type='nominal' />
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:QUESTION:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;In your opinion, how important is the Nova Scotia tourism industry to the Nova Scotia economy?&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;How appealing is Nova Scotia to you personally as a vacation destination?&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;How would you personally rate Nova Scotia with respect to each of the following: Offering interesting things for you to see and do in the summer&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Please indicate the extent to which you agree or disagree with the following statement? Do you completely agree, mostly agree, mostly disagree, or completely disagree: I am proud of what Nova Scotia offers to visitors.&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;In your opinion, how important is the Nova Scotia tourism industry to the Nova Scotia economy? Is it critically important, important, but not critical, not very important, or not at all important?&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;How would you personally rate Nova Scotia with respect to each of the following: Offering interesting things for you to see and do in the winter&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Overseas&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;How appealing is Nova Scotia to you personally as a vacation destination? Is it very appealing, somewhat appealing, not very appealing, or not at all appealing?&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Elsewhere in Canada&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;How would you rate Nova Scotia’s tourism industry with respect to: Career opportunities?&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Thinking about where you live in Nova Scotia, what impact does tourism have in your community?&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Atlantic Canada&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Nova Scotia&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: United States&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;In your opinion, how important is the Nova Scotia tourism industry to the Nova Scotia economy? Is it critically important, important, but not critical, or not very important?&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;How would you rate Nova Scotia’s tourism industry with respect to: Investment opportunities?&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;How would you personally rate Nova Scotia with respect to each of the following: Offering interesting things for you to see and do in the fall&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Caribbean or other sun destinations&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Please indicate if you completely agree, mostly agree, mostly disagree, or completely disagree with the following statement: I am proud of what Nova Scotia offers to visitors.&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;How would you personally rate Nova Scotia with respect to each of the following: Offering interesting things for you to see and do in the spring&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:RESPONSE:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;A very negative impact&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;A very positive impact&quot;</bucket>
+            </map>
+            <map to='#7c4d79'>
+              <bucket>&quot;Very likely&quot;</bucket>
+            </map>
+            <map to='#926591'>
+              <bucket>&quot;Somewhat likely&quot;</bucket>
+            </map>
+            <map to='#b882a6'>
+              <bucket>&quot;Not very likely&quot;</bucket>
+            </map>
+            <map to='#d5a4c4'>
+              <bucket>&quot;Not at all likely&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;A mostly positive impact&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;Don&apos;t know&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;A mostly negative impact&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Extract' id='Extract (Extract.Extract)_C1C7A248BBD5498FBEFB88E2F0FEE437'>
+            <properties context=''>
+              <relation connection='hyper.1thflsq1fad3fv1gvpl4d0gp20a9' name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Nova Scotian 2024 Travel Plans</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Nova_Scotia_Engagement Extract' name='federated.0pp6g781xqf20516iyeup1gng8dg' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0pp6g781xqf20516iyeup1gng8dg'>
+            <column caption='Group Weighted %' datatype='integer' name='[GROUP WEIGHTED %]' role='measure' type='quantitative' />
+            <column caption='Group' datatype='string' name='[GROUP]' role='dimension' type='nominal' />
+            <column caption='Question' datatype='string' name='[QUESTION]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Atlantic Canada&quot;' value='Atlantic Canada' />
+                <alias key='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Caribbean or other sun destinations&quot;' value='Caribbean or other sun destinations' />
+                <alias key='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Elsewhere in Canada&quot;' value='Elsewhere in Canada' />
+                <alias key='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Nova Scotia&quot;' value='Nova Scotia' />
+                <alias key='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Overseas&quot;' value='Overseas' />
+                <alias key='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: United States&quot;' value='United States' />
+              </aliases>
+            </column>
+            <column caption='Response' datatype='string' datatype-customized='true' name='[RESPONSE]' role='dimension' type='nominal' />
+            <column-instance column='[GROUP]' derivation='None' name='[none:GROUP:nk]' pivot='key' type='nominal' />
+            <column-instance column='[QUESTION]' derivation='None' name='[none:QUESTION:nk]' pivot='key' type='nominal' />
+            <column-instance column='[RESPONSE]' derivation='None' name='[none:RESPONSE:ok]' pivot='key' type='nominal' />
+            <column-instance column='[GROUP WEIGHTED %]' derivation='Sum' name='[sum:GROUP WEIGHTED %:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0pp6g781xqf20516iyeup1gng8dg].[:Measure Names]'>
+            <groupfilter function='level-members' level='[:Measure Names]' />
+          </filter>
+          <filter class='categorical' column='[federated.0pp6g781xqf20516iyeup1gng8dg].[none:GROUP:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:GROUP:nk]' member='&quot;AGE: 18- 34&quot;' />
+              <groupfilter function='member' level='[none:GROUP:nk]' member='&quot;AGE: 35- 54&quot;' />
+              <groupfilter function='member' level='[none:GROUP:nk]' member='&quot;AGE: 55+&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0pp6g781xqf20516iyeup1gng8dg].[none:QUESTION:nk]'>
+            <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:QUESTION:nk]' member='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Atlantic Canada&quot;' />
+              <groupfilter function='member' level='[none:QUESTION:nk]' member='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Caribbean or other sun destinations&quot;' />
+              <groupfilter function='member' level='[none:QUESTION:nk]' member='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Elsewhere in Canada&quot;' />
+              <groupfilter function='member' level='[none:QUESTION:nk]' member='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Nova Scotia&quot;' />
+              <groupfilter function='member' level='[none:QUESTION:nk]' member='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Overseas&quot;' />
+              <groupfilter function='member' level='[none:QUESTION:nk]' member='&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: United States&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0pp6g781xqf20516iyeup1gng8dg].[none:QUESTION:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Overseas&quot;</bucket>
+              <bucket>&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: United States&quot;</bucket>
+              <bucket>&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Caribbean or other sun destinations&quot;</bucket>
+              <bucket>&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Elsewhere in Canada&quot;</bucket>
+              <bucket>&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Atlantic Canada&quot;</bucket>
+              <bucket>&quot;Thinking about your travel plans in 2024, how likely are you to travel this year on an overnight trip – either on holiday, or to visit friends or family – to each of the following locations: Nova Scotia&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <manual-sort column='[federated.0pp6g781xqf20516iyeup1gng8dg].[none:RESPONSE:ok]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;A very negative impact&quot;</bucket>
+              <bucket>&quot;A mostly negative impact&quot;</bucket>
+              <bucket>&quot;A mostly positive impact&quot;</bucket>
+              <bucket>&quot;A very positive impact&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0pp6g781xqf20516iyeup1gng8dg].[none:GROUP:nk]</column>
+            <column>[federated.0pp6g781xqf20516iyeup1gng8dg].[none:QUESTION:nk]</column>
+            <column>[federated.0pp6g781xqf20516iyeup1gng8dg].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0pp6g781xqf20516iyeup1gng8dg].[none:QUESTION:nk]' value='168' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0pp6g781xqf20516iyeup1gng8dg].[none:RESPONSE:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0pp6g781xqf20516iyeup1gng8dg].[sum:GROUP WEIGHTED %:qk]</rows>
+        <cols>[federated.0pp6g781xqf20516iyeup1gng8dg].[none:QUESTION:nk]</cols>
+      </table>
+      <simple-id uuid='{251414BE-EFE6-480E-83BC-51B8E737E413}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0pp6g781xqf20516iyeup1gng8dg].[none:QUESTION:nk]' type='filter' />
+            <card pane-specification-id='0' param='[federated.0pp6g781xqf20516iyeup1gng8dg].[none:RESPONSE:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0pp6g781xqf20516iyeup1gng8dg].[none:GROUP:nk]</field>
+            <field>[federated.0pp6g781xqf20516iyeup1gng8dg].[none:RESPONSE:nk]</field>
+            <field>[federated.0pp6g781xqf20516iyeup1gng8dg].[none:RESPONSE:ok]</field>
+            <field>[federated.0pp6g781xqf20516iyeup1gng8dg].[yr:Year:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2F857EFB-74B2-473B-AFE1-1D13EC64358B}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
