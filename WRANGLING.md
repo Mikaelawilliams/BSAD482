@@ -6,6 +6,7 @@
 - Changed Month/Year data type from String to Date
 - Changed Region data role to Geographic (County)
 - Ran Output
+  
 ![Alt text](Room_Nights_Sold_Over_Time_In_Nova_Scotia.png)
 
 2. **Nova_Scotians_Engagement**
@@ -14,7 +15,9 @@
 - Changed Group Weighted % data type from Number (whole) to Number (decimal)
 - Changed Table column name to Question
 - Ran Output
+  
 ![Alt text](How_Residents_Rate_Seasons.png)
+
 ![Alt text](Likelihood_Of_Nova_Scotians_Travelling_In_2024.png)
 
 3. **Tourism Nova Scotia Visitation**
@@ -22,7 +25,8 @@
 - Changed Month/Year data type from String to Date
 - Grouped duplicates from visitor origin and country
 - Ran Output
-[Alt text](Domestic_Nova_Scotia_Visitor_Origin.png)
+  
+![Alt text](Domestic_Nova_Scotia_Visitor_Origin.png)
 
 4. **Arrival and Expenditures**
 - Clean step
@@ -42,4 +46,5 @@
 - Deleted F4
 - Sorted columns
 - Ran output
-[Alt text](International_Visitor_Expenditures.png)
+  
+![Alt text](International_Visitor_Expenditures.png)
