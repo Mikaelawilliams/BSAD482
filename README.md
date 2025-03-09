@@ -4,39 +4,38 @@
 By: Mikaela Williams
 
 ## Executive Summary 
-This project looks at how community involvement can help revive tourism in Nova Scotia. It aims to find ways to increase local participation in tourism efforts by studying data from the Department of Communities, Culture, Tourism and Heritage (CCTH) and gathering public opinions and visitation trends. The goal is to support tourism growth that benefits both locals and visitors. 
+This project looks at how domestic travel can help revive tourism in Nova Scotia. It aims to find ways to increase local participation in tourism efforts by gathering public opinions and visitation trends. The goal is to support tourism growth that benefits both locals and visitors. 
 
 [Read detailed background information here](BACKGROUND.md)
 
 ## Key Performance Indicators (KPIs) 
 
-1. **Non-Resident Overnight Visitors**
-<mark>consider adding a value statement here, this shows you have the "big picture" in mind.  For example: "This metric helps assess the economic contributions of tourism, including spending on accommodation, dining, attractions, and local businesses, which can boost the local economy."
+1. **International Visitor Expenditure Trends**
+Understanding expenditure patterns by country helps tourism boards and policymakers tailor marketing efforts, improve visitor experiences, and develop strategies to attract high-value travelers. 
+- The total annual expenditures by visitors from different countries reflect the global tourism demand for Nova Scotia. 
+- Target: Achieve a 5% year-over-year increase in total visitor spending across all international markets. 
+- Measurement Frequency: Annually. 
 
-   - The total number of non-resident individuals who stay overnight in Nova Scotia within a specified time frame.
-   - Target: Achieve a 5% annual increase in non-resident overnight visitors.
-   - Measured Monthly. 
-   - <mark> so is the KPI the number, or the % change?</mark>
-  
-<mark>Consider adding a value statement to the other KPIs</mark>
+2. **Likelihood of Nova Scotians Traveling in 2024**
+Understanding travel preferences allows stakeholders to tailor marketing strategies, improve regional offerings, and support tourism-related businesses with targeted promotions. By tracking travel likelihood, Nova Scotia can forecast demand and optimize resource allocation for tourism services. 
+- The percentage of Nova Scotians who plan to travel to different regions (Overseas, United States, Caribbean, Elsewhere in Canada, Atlantic Canada, and Nova Scotia) in 2024. 
+- Target: Increase the percentage of Nova Scotians who are "very likely" to travel by 5% year-over-year across the Nova Scotia region. 
+- Measurement Frequency: Annually.
 
-1. **Perceived Impact of Tourism**
-   - The percentage of Nova Scotians who perceive tourism as having a positive impact on their community.
-   - Target: Increase the number of residents who report a positive impact of tourism by 5% over the next three years.
-   - Measured Annually. 
+3. **Room Nights Sold in Nova Scotia**
+By tracking room nights sold, stakeholders can assess the effectiveness of marketing efforts, identify trends in visitor behavior, and support strategic planning for accommodations, attractions, and infrastructure development.  
+- The total number of room nights sold across various regions in Nova Scotia over time. 
+- Target: Achieve a 5% annual increase in room nights sold, with a focus on sustaining growth beyond peak tourism seasons. 
+- Measurement Frequency: Monthly.
 
-2. **Accommodation Occupancy Rate**
-   - The percentage of available accommodation units (e.g., hotel rooms, B&Bs) that are occupied over a specific period.
-   - Target: Achieve a minimum occupancy rate of 70% during peak tourist seasons.
-   - Measured Monthly 
-   - <mark>I don't see this in the referenced data, consider including this: https://data.novascotia.ca/Business-and-Industry/Tourism-Nova-Scotia-Fixed-Roof-Accommodations/458x-qn7p/about_data  </mark>
+4. **Domestic Visitor Volume to Nova Scotia**
+Understanding the origin of domestic visitors helps assess the effectiveness of tourism marketing efforts across different regions. 
+- The total number of domestic visitors traveling to Nova Scotia from different regions of Canada within a specified period. 
+- Target: Achieve a 5% increase in domestic visitation annually. 
+- Measured: Annually and seasonally to track trends and peak travel periods.
 
-3. **Average Length of Stay**
-   - The average number of nights non-resident visitors spend in Nova Scotia during a single trip.
-   - Target: Increase the average length of stay by 0.5 nights over the next two years.
-   - Measured Monthly. 
-
-4. **Off-Season Visitor Growth**
-   - The percentage of non-resident overnight visitors to Nova Scotia during the off-season months (November–April).
-   - Target: Increase off-season visitation by 4% per year over the next five years.
-   - Measured Annually. 
+5. **Resident Perception of Nova Scotia’s Seasonal Attractions**
+Understanding resident perceptions of seasonal attractions helps tourism stakeholders identify strengths and gaps in visitor experiences throughout the year. 
+- The percentage of Nova Scotia residents who rate the province as offering interesting things to do across different seasons. 
+- Target: Increase the percentage of residents rating Nova Scotia’s seasonal offerings as "Excellent" or "Good" by 5% over the next three years. 
+- Measured: Annually, with a seasonal breakdown to track trends and guide strategic improvements. 
