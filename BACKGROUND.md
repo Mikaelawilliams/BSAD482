@@ -17,9 +17,9 @@ This analysis is timely and crucial for several reasons:
 
 ## Research Objectives 
 This study aims to: 
-1. Evaluate the current level of community engagement in Nova Scotia's tourism sector. 
-2. Determine challenges faced by communities in participating in tourism initiatives and identify potential opportunities for increased involvement. 
-3. Propose strategies to enhance community engagement by leveraging existing structures within the CCTH. 
+1. Evaluate domestic visitor volume from different regions in Canada to measure the impact of tourism initiatives.
+2. Investigate resident perceptions of Nova Scotia’s seasonal attractions to enhance year-round tourism appeal.
+3. Develop data-backed strategies to increase internal tourism and maximize economic benefits for local communities.
 
 ## Datasets 
 
