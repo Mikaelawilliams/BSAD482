@@ -35,7 +35,12 @@ This study aims to:
    - Temporal coverage: January 2006 - Sept 2024
    - Geographic scope: Nova Scotia, Canada 
 
-3. 
+3. Tourism Nova Scotia Fixed Roof Accomodations
+   - Source: [https://data.novascotia.ca](https://data.novascotia.ca/Business-and-Industry/Tourism-Nova-Scotia-Fixed-Roof-Accommodations/458x-qn7p/about_data)
+   - Number of room nights sold among licensed accommodations operators and occupancy rate (%). The dataset is broken down by regions of Nova Scotia. Data is reported monthly.
+   - Temporal coverage: January 2007 - October 2024
+   - Geographic Scope: Nova Scotia, Canada
+
 ## References 
 
 <a id="1">[1]</a> Tourism Nova Scotia. (n.d.). See nova scotia tourism statistics up to September 2024. https://tourismns.ca/news/intouch-blog/see-nova-scotia-tourism-statistics-september-2024  
@@ -47,3 +52,5 @@ This study aims to:
 <a id="4">[4]</a> Nova Scotians engagement in tourism industry: Open Data: Nova Scotia. data.novascotia.ca. (2024b, June 10). https://data.novascotia.ca/Business-and-Industry/Nova-Scotians-Engagement-in-Tourism-Industry/2ur5-nrja/about_data  
 
 <a id="5">[5]</a> Tourism Nova Scotia Visitation: Open data: Nova scotia. data.novascotia.ca. (2025, January 6). https://data.novascotia.ca/Business-and-Industry/Tourism-Nova-Scotia-Visitation/n783-4gmh/about_data
+
+<a id="6">[6]</a> Tourism Nova Scotia Fixed Roof Accomodations: Open data: Nova scotia. data.novascotia.ca. (2025, March 6). https://data.novascotia.ca/Business-and-Industry/Tourism-Nova-Scotia-Fixed-Roof-Accommodations/458x-qn7p/about_data
