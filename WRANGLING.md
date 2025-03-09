@@ -15,7 +15,7 @@
 - Changed Table column name to Question
 - Ran Output
 ![Alt text](How_Residents_Rate_Seasons.png)
-![Alt text](Likelihood_Of_Nova_Soctians_Travelling_In_2024.png)
+![Visualization](Likelihood_Of_Nova_Soctians_Travelling_In_2024.png)
 
 3. **Tourism Nova Scotia Visitation**
 - Clean step
