@@ -9,7 +9,7 @@
   
 ![Alt text](Room_Nights_Sold_Over_Time_In_Nova_Scotia.png)
 
-2. **Nova_Scotians_Engagement**
+2. **Nova Scotians Engagement**
 - Added cleaning step
 - Changed Year data type to Date
 - Changed Group Weighted % data type from Number (whole) to Number (decimal)
