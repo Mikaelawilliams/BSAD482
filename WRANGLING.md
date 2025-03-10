@@ -48,3 +48,6 @@
 - Ran output
   
 ![Alt text](International_Visitor_Expenditures.png)
+**Interpretation:** The chart shows how much money international visitors spent in Nova Scotia over different years. Each dot represents a country, and the higher the dot, the more money visitors from that country spent. The box plots show the overall spending patterns for each year.
+
+The United States stands out as the biggest spender, with much higher amounts compared to other countries. Spending changes over time, with some years seeing bigger amounts, like around 2010 and 2022. The drop in 2020 and 2021 suggests the impact of the COVID-19 pandemic, but spending seems to rise again in 2022. Many different countries continue to visit Nova Scotia, showing that it remains a popular travel destination.
