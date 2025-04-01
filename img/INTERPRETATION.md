@@ -3,7 +3,7 @@
 **Interpretation:** The graph shows the number of room nights sold in Nova Scotia over time, broken down by different regions. From 2008 to 2019, the number of room nights sold remained fairly steady. In 2020, there was a sharp drop, likely due to the COVID-19 pandemic. After 2021, the numbers quickly increased again and even peaked higher than before. More recently, the numbers have leveled off but remain strong. The Halifax Metro area and Cape Breton seem to make up a big part of the total room nights sold. This chart helps show how tourism and accommodations in Nova Scotia have changed over time, especially during and after the pandemic.
 
 
-2. **How Residents Rate Seasons**
+## 2. How Residents Rate Seasons
 ![Alt text](How_Residents_Rate_Seasons.png)
 **Interpretation:** The chart shows how residents rate Nova Scotia in terms of offering interesting things to do in different seasons. Summer has the highest rating, with most people rating it as "Excellent" or "Good." Spring, Fall, and Winter have more mixed ratings, with fewer people giving them an "Excellent" rating. Winter has the most "Poor" ratings, meaning many residents feel there are fewer interesting activities during this season. Overall, Nova Scotia is seen as having the most to offer in the summer, while the colder seasons receive more average or negative ratings.
 
