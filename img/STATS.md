@@ -2,4 +2,6 @@
 
 ## Results
 1. **Decision Tree Visualization**
-2. 
+![Alt text](Confusion_Matrix_Decision_Tree.png)
+![Alt text](Decision_Tree_Visualization.png)
+![Alt text](Feature_Importance_Random_Forest.png)
