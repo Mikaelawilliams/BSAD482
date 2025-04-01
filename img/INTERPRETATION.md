@@ -1,4 +1,4 @@
-1. ## Room Nights Sold Over Time in Nova Scotia
+## 1. Room Nights Sold Over Time in Nova Scotia
 ![Alt text](Room_Nights_Sold_Over_Time_In_Nova_Scotia.png)
 **Interpretation:** The graph shows the number of room nights sold in Nova Scotia over time, broken down by different regions. From 2008 to 2019, the number of room nights sold remained fairly steady. In 2020, there was a sharp drop, likely due to the COVID-19 pandemic. After 2021, the numbers quickly increased again and even peaked higher than before. More recently, the numbers have leveled off but remain strong. The Halifax Metro area and Cape Breton seem to make up a big part of the total room nights sold. This chart helps show how tourism and accommodations in Nova Scotia have changed over time, especially during and after the pandemic.
 
