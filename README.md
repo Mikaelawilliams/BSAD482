@@ -9,7 +9,7 @@ This project looks at how domestic travel can help revive tourism in Nova Scotia
 [Read detailed background information here](BACKGROUND.md)
 
 ## Table of Contents
-1. [Introduction](#introduction)
+1. [Executive Summary](##Executive Summary)
 2. [Research Objective](#research-objective)
 3. [Exploratory Data Analysis](#exploratory-data-analysis)  
    - [(a) Subsection A](#a)  
