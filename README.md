@@ -21,9 +21,9 @@ This project looks at how domestic travel can help revive tourism in Nova Scotia
    - [Visualization 3: Likelihood of Nova Scotians Travelling In 2024](img/INTERPRETATION.md#3-likelihood-of-nova-scotians-travelling-in-2024)
    - [Visualization 4: Domestic Nova Scotia Visitor Origin](img/INTERPRETATION.md#4-domestic-nova-scotia-visitor-origin)
    - [Visualization 5: Nova Scotia Arrivals and Expenditures](img/INTERPRETATION.md#5-nova-scotia-arrivals-and-expenditures)
-8. [Statistical Analysis](STATS.md)
-   - [Model Explanation](STATS.md#model-explanation)
-   - [Results](STATS.md#results)
+8. [Statistical Analysis](img/STATS.md)
+   - [Model Explanation](img/STATS.md#model-explanation)
+   - [Results](img/STATS.md#results)
 9. [References](BACKGROUND.md#references)
    
 ## Key Performance Indicators (KPIs) 
