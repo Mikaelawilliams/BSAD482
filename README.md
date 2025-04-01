@@ -9,19 +9,19 @@ This project looks at how domestic travel can help revive tourism in Nova Scotia
 [Read detailed background information here](BACKGROUND.md)
 
 ## Table of Contents
-1. [Introduction](README.md)
-2. Research Objective
-3. Exploratory Data Analysis
-   (a)
-   (b)
-   (c)
-   (d)
-   (e)
-4. Statistical Analysis
-   (a) Model Explanation
-   (b) Results
-5. Discussion
-6. References
+1. [Introduction](#introduction)
+2. [Research Objective](#research-objective)
+3. [Exploratory Data Analysis](#exploratory-data-analysis)  
+   - [(a) Subsection A](#a)  
+   - [(b) Subsection B](#b)  
+   - [(c) Subsection C](#c)  
+   - [(d) Subsection D](#d)  
+   - [(e) Subsection E](#e)  
+4. [Statistical Analysis](#statistical-analysis)  
+   - [(a) Model Explanation](#model-explanation)  
+   - [(b) Results](#results)  
+5. [Discussion](#discussion)  
+6. [References](#references) 
    
 ## Key Performance Indicators (KPIs) 
 
