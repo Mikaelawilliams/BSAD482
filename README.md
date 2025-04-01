@@ -17,8 +17,9 @@ This project looks at how domestic travel can help revive tourism in Nova Scotia
 6. [Datasets](BACKGROUND.md#datasets)
 7. [Exploratory Data Analysis](#exploratory-data-analysis)  
    - [Visualization 1: Room Nights Sold Over Time](img/INTERPRETATION.md#Room_Nights_Sold_Over_Time_In_Nova_Scotia.png)
-   - [Visualization 2: Likelihood of Nova Scotians Travelling In 2024](img/Likelihood_Of_Nova_Scotians_Travelling_In_2024.png)
-   - [(c) Subsection C](#c)  
+   - [Visualization 2: How Residents Rate Seasons](img/INTERPRETATION.md#How-Residents-Rate-Seasons)
+   - [Visualization 3: Likelihood of Nova Scotians Travelling In 2024](img/INTERPRETATION.md#Likelihood_Of_Nova_Scotians_Travelling_In_2024.png)
+   - [Visualization 3: Inter 
    - [(d) Subsection D](#d)  
    - [(e) Subsection E](#e)  
 8. [Statistical Analysis](#statistical-analysis)  
