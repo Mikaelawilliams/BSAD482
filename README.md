@@ -8,6 +8,21 @@ This project looks at how domestic travel can help revive tourism in Nova Scotia
 
 [Read detailed background information here](BACKGROUND.md)
 
+## Table of Contents
+1. Introduction
+2. Researcg Objective
+3. Exploratory Data Analysis
+   (a)
+   (b)
+   (c)
+   (d)
+   (e)
+4. Statistical Analysis
+   (a) Model Explanation
+   (b) Results
+5. Discussion
+6. References
+   
 ## Key Performance Indicators (KPIs) 
 
 1. **International Visitor Expenditure Trends**
