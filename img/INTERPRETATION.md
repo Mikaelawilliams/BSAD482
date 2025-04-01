@@ -18,6 +18,6 @@
 **Interpretation:** The pie chart shows where visitors to Nova Scotia come from within Canada. Most visitors are from Atlantic Canada, making up the largest portion. Ontario is the second biggest source of visitors, followed by Western Canada and then Quebec. This means that people from nearby provinces visit Nova Scotia the most, while fewer visitors come from farther parts of the country.
 
 
-## 5. Arrival and Expenditures
+## 5. Nova Scotia Arrivals and Expenditures
 ![Alt text](International_Visitor_Expenditures.png)
 **Interpretation:** The chart shows how much money international visitors spent in Nova Scotia over different years. Each dot represents a country, and the higher the dot, the more money visitors from that country spent. The box plots show the overall spending patterns for each year. The United States stands out as the biggest spender, with much higher amounts compared to other countries. Spending changes over time, with some years seeing bigger amounts, like around 2010 and 2022. The drop in 2020 and 2021 suggests the impact of the COVID-19 pandemic, but spending seems to rise again in 2022. Many different countries continue to visit Nova Scotia, showing that it remains a popular travel destination.
