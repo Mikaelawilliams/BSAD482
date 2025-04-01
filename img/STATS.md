@@ -7,4 +7,3 @@
 ![Alt text](Feature_Importance_Random_Forest.png)
 3. **Confusion Matrix Decision Tree**
 ![Alt text](Confusion_Matrix_Decision_Tree.png)
-
